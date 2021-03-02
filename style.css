@@ -1,0 +1,99 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+table {
+  margin: auto;
+}
+
+td {
+  border: solid gray 3px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: xx-large;
+  border-radius: 10px;
+}
+
+td:hover {
+  background-color: lavender;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+
+h1 {
+  margin: 1em 0em;
+  color: gray;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: uppercase;
+  font-size: xx-large;
+  text-align: center;
+}
+
+p,
+h2 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 2em;
+}
+
+#joueur1 {
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+}
+
+#joueur2 {
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+}
+
+.victoire {
+  color: green;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+}
+
+.fa-circle::before {
+  color: red;
+}
+
+.fa-times::before {
+  color: blue;
+}
+
+button {
+  position: relative;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: larger;
+  padding: 1em;
+  color: white;
+  background-color: hotpink;
+  border: none;
+  margin: 3em;
+  border-radius: 20px;
+  box-shadow: 5px 5px 2px slategrey;
+  transition: 0.2s ease-out;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: none;
+  top: 5px;
+  left: 5px;
+}
